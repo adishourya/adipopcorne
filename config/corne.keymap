@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp ESCAPE                &bt BT_NXT              &rgb_ug RGB_ON         &rgb_ug RGB_OFF                &rgb_ug RGB_EFF                   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp BACKSPACE  &none
-&none  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2    &mt HASH NUMBER_3      &mt DOLLAR NUMBER_4            &mt PERCENT NUMBER_5              &kp LEFT         &kp LEFT         &kp DOWN           &kp UP_ARROW     &kp RIGHT      &trans
-&none  &mt CARET NUMBER_6        &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0    &bt BT_CLR       &bt BT_NXT       &trans             &trans           &kp EQUAL      &trans
-                                                         &kp LGUI               &trans                         &kp SPACE                         &kp RET          &trans           &kp RALT
+&none  &kp ESCAPE                &bt BT_NXT              &rgb_ug RGB_ON         &rgb_ug RGB_OFF                &rgb_ug RGB_EFF                   &rgb_ug RGB_BRI       &rgb_ug RGB_BRD  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp BACKSPACE  &none
+&none  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2    &mt HASH NUMBER_3      &mt DOLLAR NUMBER_4            &mt PERCENT NUMBER_5              &mt MINUS UNDERSCORE  &kp LEFT         &kp DOWN           &kp UP_ARROW     &kp RIGHT      &trans
+&none  &mt CARET NUMBER_6        &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0    &mt PLUS EQUAL        &bt BT_CLR       &bt BT_NXT         &trans           &kp EQUAL      &trans
+                                                         &kp LGUI               &trans                         &kp SPACE                         &kp RET               &trans           &kp RALT
             >;
         };
 
