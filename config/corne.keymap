@@ -51,9 +51,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE  &kp F4  &kp F5       &kp F6   &kp F7  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &none
-&none  &kp LEFT_SHIFT        &kp F12               &trans      &trans  &trans       &none    &none   &none             &kp SEMICOLON      &kp SQT               &none
-&none  &trans                &trans                &trans      &trans  &trans       &none    &none   &none             &kp PERIOD         &kp SLASH             &none
+&none  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE  &kp F4  &kp F5       &kp F6   &kp F7  &kp LBKT   &kp RBKT       &kp NON_US_BACKSLASH  &none
+&none  &kp LEFT_SHIFT        &kp F12               &trans      &trans  &trans       &none    &none   &none      &kp SEMICOLON  &kp SQT               &none
+&none  &trans                &trans                &trans      &trans  &trans       &none    &none   &kp COMMA  &kp PERIOD     &kp SLASH             &none
                                                    &kp LGUI    &trans  &kp SPACE    &kp RET  &trans  &kp RALT
             >;
         };
